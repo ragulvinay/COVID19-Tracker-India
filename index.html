@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/996973c893.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- My jQuery -->
+    <script src="main.js"></script>
+
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+
+    <title>Covid-19 Tracker India</title>
+    
+  </head>
+  <body>
+    <div class="container-fluid bg-warning p-5 text-center my-3">
+      <h1  class="text-white text-center">COVID-19 Tracker</h1>
+      <h5 class="text-muted">
+        Keep track of all the COVID-19 cases around the
+        world.
+      </h5>
+    </div> 
+
+    <div class="container my-5">
+      <div class="row text-center">
+        <div class="col-3 text-warning">
+          <h5>Confirmed</h5>
+          <p id="confirmed"></p>
+        </div>
+        <div class="col-3 text-info">
+          <h5>Active</h5>
+          <p id="active"></p>
+        </div>
+        <div class="col-3 text-success">
+          <h5>Recovered</h5>
+          <p id="recovered"></p>
+        </div>
+        <div class="col-3 text-danger">
+          <h5>Deceased</h5>
+          <p id="deaths"></p>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <canvas id="myChart"></canvas>
+
+    <div class="container text-center my-5">
+      <h6 class="text-info">
+        *Click on the Confirmed/Recovered/Deaths buttons above to see the chart
+        individually.*
+      </h6>
+    </div>
+
+    <footer class="footer mt-5 py-3 bg-dark">
+      <div>
+        <h5 class="text text-white text-center py-2">
+      Let us be Social..!!
+    </h5>
+        </div>
+
+      
+
+
+<ul class="list-unstyled list-inline text-center">
+<li class="list-inline-item">
+  <a href="https://www.linkedin.com/in/ragul-vinay/" class="btn-floating btn-li mx-1">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</li>
+<li class="list-inline-item">
+  <a href="https://instagram.com/ragul_vinay?igshid=y02v9i64lrrs" class="btn-floating btn-tw mx-1">
+    <i class="fab fa-instagram-square"> </i>
+  </a>
+</li>
+<li class="list-inline-item">
+  <a href="https://www.facebook.com/ragul.vinay" class="btn-floating btn-fb mx-1">
+    <i class="fab fa-facebook-square"> </i>
+  </a>
+</li>
+<li class="list-inline-item">
+  <a href="https://mobile.twitter.com/VinayRagul" class="btn-floating btn-tw mx-1">
+    <i class="fab fa-twitter-square"> </i>
+  </a>
+</li>
+
+
+
+
+
+</ul>
+
+
+</div>
+    
+    <h5 class="text-muted text-center">
+      Developed by | <span class="text text-white" >Ragul Vinay</span>
+    </h5>
+  </div>
+      
+
+    </div>
+    </footer>
+  </body>
+</html>
